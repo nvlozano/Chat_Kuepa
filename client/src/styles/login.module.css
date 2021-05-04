@@ -1,0 +1,137 @@
+.cont__form{
+    width: 1500% !important;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    flex-wrap: nowrap;
+    background-color: rgb(85, 114, 114);
+}
+.cont__form_reg{
+    width: 40%;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+  
+}
+
+.cont__form___Princ{
+    display: flex !important;
+    /* flex-direction: column; */
+    height: 70vh;
+    flex-basis: 100% !important;
+    justify-content: center;
+    align-self: center;
+}
+
+
+.cont__form___Princ_reg{
+    display: flex !important;
+    height: 70vh;
+    justify-content: center;
+    align-self: center;
+    margin-top: 80px;
+}
+
+
+.cont__form_image_reg{
+    width: 60%;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0)),url('../images/registro.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.parrLog__Reg {
+    font-size: 15px;
+    color: black;
+    text-align: end;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.IconUser{
+    margin: 20px auto;
+}
+
+.IconUser i{
+    font-size: 100px;
+    color: #f15a24 !important;
+}
+
+.title{
+    text-align: center;
+    letter-spacing: 1px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.label{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+.input{
+    width: 320px;
+}
+.button{
+    border: 3px solid white;
+    background-color: transparent;
+    width: 55%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.contPrin{
+    display: flex;
+    margin-top: 20px;
+}
+.title2{
+    color: #1bb1a6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.input2{
+    width: 420px;
+}
+.contForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.bottonRes{
+    background-color:#1bb1a6 ;
+    width: 45%;
+    border-radius: 20px;
+    margin: 0 auto;
+    border: 1px solid #1bb1a6;
+}
+footer{
+    background-color: #1bb1a6;
+    height: 70px;
+}
+
+footer h4{
+    line-height: 70px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}

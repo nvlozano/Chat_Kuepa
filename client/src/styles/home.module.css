@@ -1,0 +1,48 @@
+.bgHome{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.2)),url('../images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0%;
+    z-index: 0;
+}
+
+.navHome{
+    width: 100% !important;
+    z-index: 100;
+    position: fixed;
+    top: 0%;
+    padding-left: 15px !important;
+}
+.logo{
+    
+    height: 40px;
+    width: 150px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.color{
+    color: #f15a24 !important;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 470;
+    margin-left: 30px;
+}
+
+.conten___Home{
+
+    width: 60% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
